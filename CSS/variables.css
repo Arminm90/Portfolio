@@ -1,8 +1,10 @@
 :root {
   --bg-primary: #ecf0f1;
   --bg-secondary: #374e66;
+  --bg-hover: #994040;
 
   /* Text color */
+  --text-primary: #fff;
 
   /* Font family */
   --font-primary: Arial, Verdana, Helvetica, sans-serif;

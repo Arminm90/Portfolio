@@ -1,10 +1,9 @@
 :root {
-  --bg-primary: #b1d4e0;
-  --bg-secondary: ;
+  --bg-primary: #ecf0f1;
+  --bg-secondary: #374e66;
 
   /* Text color */
 
   /* Font family */
-
   --font-primary: Arial, Verdana, Helvetica, sans-serif;
 }

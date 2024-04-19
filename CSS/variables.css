@@ -1,7 +1,8 @@
 :root {
   --bg-primary: #ecf0f1;
   --bg-secondary: #374e66;
-  --bg-hover: #994040;
+
+  /* links */
 
   /* Text color */
   --text-primary: #fff;

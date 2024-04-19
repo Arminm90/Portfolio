@@ -2,11 +2,12 @@
   --bg-primary: #ecf0f1;
   --bg-secondary: #374e66;
 
-  /* links */
-
   /* Text color */
   --text-primary: #fff;
 
   /* Font family */
-  --font-primary: Arial, Verdana, Helvetica, sans-serif;
+  --font-primary: Verdana, Arial, Helvetica, sans-serif;
+
+  /* Hover color */
+  --bg-hover: #8aa00d;
 }

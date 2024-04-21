@@ -142,7 +142,7 @@ footer ul li a span {
     flex-direction: row;
     flex-wrap: wrap;
   } */
-  .Container {
+  .Container-projekter {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -152,6 +152,9 @@ footer ul li a span {
     padding: 1rem;
     border: 0.0625rem solid #ccc;
     border-style: groove;
+  }
+  .Container-projekter a:hover {
+    color: var(--bg-hover);
   }
   .Projekt-UX,
   .Projekt-Web-dev {

@@ -67,10 +67,13 @@ p {
 .Projekt-UX {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .Projekt-UX img {
   max-width: 100%;
+}
+.Projekt-Web-dev {
+  margin-bottom: 1rem;
 }
 .Projekt-Web-dev img {
   max-width: 100%;
@@ -79,9 +82,9 @@ p {
 /* .omMig {
 } */
 #Arrow {
+  position: fixed;
   width: 2rem;
   height: 2rem;
-  position: fixed;
   bottom: 1rem;
   right: 1rem;
 }
@@ -122,6 +125,7 @@ footer ul li a span {
   #navbar a:hover {
     background-color: var(--bg-hover);
     width: 100%;
+    color: var(--text-hover);
   }
   .Intro {
     display: flex;
@@ -133,27 +137,45 @@ footer ul li a span {
     border-radius: 1rem;
     margin-right: 1rem;
   }
-  .Projekter,
-  .Projekt-UX {
+  /* .Projekter {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  } */
+  .Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
-  .Projekt-UX {
+  .Projekt-UX,
+  .Projekt-Web-dev {
+    padding: 1rem;
+    border: 0.0625rem solid #ccc;
+    border-style: groove;
+  }
+  .Projekt-UX,
+  .Projekt-Web-dev {
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
   }
-  .Projekt-UX img {
+  .Projekter img {
+    max-width: 25%;
+  }
+  /* .Projekt-UX {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+  } */
+  /* .Projekt-UX img {
     max-width: 25%;
   }
   .Projekt-Web-dev img {
-    max-width: 25%;
-  }
-  .OmMig {
-    margin-top: 2rem;
-  }
+    max-width: 25%; */
 }
+/* .OmMig {
+  margin-top: 2rem;
+} */
 
 @media only screen and (min-width: 1200px) {
   /* #navbar ul {

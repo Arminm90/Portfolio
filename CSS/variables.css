@@ -9,5 +9,6 @@
   --font-primary: Verdana, Arial, Helvetica, sans-serif;
 
   /* Hover color */
-  --bg-hover: #8aa00d;
+  --bg-hover: #ffea00;
+  --text-hover: #000000;
 }

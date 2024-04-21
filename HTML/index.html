@@ -12,13 +12,15 @@
     </header> -->
     <nav id="navbar">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projekter</a></li>
-        <li><a href="about.html">Om mig</a></li>
+        <li><a name="hjem">Home</a></li>
+        <li><a href="#Projekter">Projekter</a></li>
+        <!-- <li><a href="projects.html">Projekter</a></li> -->
+        <!-- <li><a href="about.html">Om mig</a></li> -->
+        <li><a href="#OmMig">Om mig</a></li>
       </ul>
     </nav>
     <main>
-      <section>
+      
         <article class="Intro">
           <img id="Armin" src="/img/Armin.jpg" alt="Et billede af mig" />
           <div>
@@ -33,16 +35,20 @@
             </p>
           </div>
         </article>
-        <article class="Projekter">
+        <article class="Projekter" id="Projekter">
           <h2>Projekter</h2>
           <p>
             Her kan man se nogle af de projekter jeg har arbejdet på. Nogle af
             dem er i grupper fra tidligere semester, og nogle af dem er
             individuelle projekter.
           </p>
-          
+          <div class="Projekt-UX">
+            <h2>UX-Eksamen</h2>
+            <p>Her er Frontend UX-Eksamen projektet som jeg arbejde på i det første semester. I dette projekt blev der anvendt basic HTML, CSS og JavaScript.</p>
+
+          </div>
         </article>
-        <article class="OmMig">
+        <article class="OmMig" id="OmMig">
           <h2>Om mig</h2>
           <p>
             Jeg er en 30 årig mand, som bor i København. Jeg har en stor
@@ -57,8 +63,10 @@
               Ikoner til sociale medier, mail
              -->
           </p>
-      </section>
     </main>
+    <a href="#hjem">
+    <img src="/img/Arrow.png" alt="Arrow up" id="Arrow">
+    </a>
     <footer>
       <ul>
         <li><p>&copy; 2024 Armin Mesic</p></li>

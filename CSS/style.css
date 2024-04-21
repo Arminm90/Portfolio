@@ -61,12 +61,18 @@ p {
   flex-direction: column;
   flex-wrap: wrap;
 }
+.Projekter a {
+  padding: 0.5rem;
+}
 .Projekt-UX {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
 }
 .Projekt-UX img {
+  max-width: 100%;
+}
+.Projekt-Web-dev img {
   max-width: 100%;
 }
 
@@ -127,18 +133,30 @@ footer ul li a span {
     border-radius: 1rem;
     margin-right: 1rem;
   }
+  .Projekter,
+  .Projekt-UX {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .Projekt-UX {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
   }
   .Projekt-UX img {
     max-width: 25%;
   }
+  .Projekt-Web-dev img {
+    max-width: 25%;
+  }
+  .OmMig {
+    margin-top: 2rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-  #navbar ul {
+  /* #navbar ul {
     justify-content: space-evenly;
   }
   #navbar ul li {
@@ -147,5 +165,5 @@ footer ul li a span {
   #navbar a:hover {
     background-color: var(--bg-hover);
     width: 100%;
-  }
+  } */
 }

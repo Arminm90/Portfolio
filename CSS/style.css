@@ -177,6 +177,9 @@ footer ul li a span {
   margin-top: 2rem;
 } */
 
+footer a:hover {
+  color: var(--bg-hover);
+}
 @media only screen and (min-width: 1200px) {
   /* #navbar ul {
     justify-content: space-evenly;

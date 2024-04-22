@@ -99,6 +99,11 @@ p {
   bottom: 1rem;
   right: 1rem;
 }
+.logo {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
 footer {
   margin-top: auto;
   display: flex;

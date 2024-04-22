@@ -74,12 +74,14 @@ p {
 }
 .Projekt-UX img {
   max-width: 100%;
+  padding: 0.5rem;
 }
 .Projekt-Web-dev {
   margin-bottom: 1rem;
 }
 .Projekt-Web-dev img {
   max-width: 100%;
+  padding: 0.5rem;
 }
 .button {
   width: 100%;
@@ -90,6 +92,17 @@ p {
   border: 0.1rem solid var(--bg-secondary);
 }
 
+table {
+  max-width: 100%;
+}
+table,
+th,
+td {
+  border: 1px groove #ccc;
+  border-collapse: collapse;
+  padding: 0.5rem;
+  border-color: var(--bg-secondary);
+}
 /* .omMig {
 } */
 #Arrow {
@@ -99,7 +112,7 @@ p {
   bottom: 1rem;
   right: 1rem;
 }
-.skills ul li {
+/* .skills ul li {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -108,7 +121,7 @@ p {
   padding: 0.5rem;
   line-height: 1rem;
   list-style-type: none;
-}
+} */
 footer {
   margin-top: auto;
   display: flex;
@@ -206,7 +219,7 @@ footer ul li a span {
     transition-duration: 0.3s;
   }
   .Container-projekter .Projekt-Web-dev .button {
-    margin-top: 3.5rem;
+    margin-top: 3.3rem;
   }
   footer a:hover {
     color: var(--bg-hover);

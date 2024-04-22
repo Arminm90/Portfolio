@@ -229,8 +229,8 @@ footer ul li a span {
     opacity: 0.8;
     transition-duration: 0.3s;
   }
-  .Container-projekter .Projekt-Web-dev .button {
-    margin-top: 3.3rem;
+  .Container-projekter .Projekt-Web-dev p {
+    margin-top: 0.3rem;
   }
   table {
     display: none;

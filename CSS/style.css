@@ -100,7 +100,7 @@ p {
   padding: 1rem;
 }
 table {
-  max-width: 100%;
+  max-width: fit-content;
   display: block;
   border: none;
 }

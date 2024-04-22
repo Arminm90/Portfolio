@@ -185,6 +185,7 @@ footer ul li a span {
     max-width: 25%;
     border-radius: 1rem;
     margin-right: 1rem;
+    box-shadow: 0.3125rem 0.3125rem 0.625rem var(--bg-secondary);
   }
   /* .Projekter {
     display: flex;

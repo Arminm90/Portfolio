@@ -237,6 +237,24 @@ footer ul li a span {
   }
   #showButton {
     display: block;
+    padding: 1rem;
+  }
+  #showButton {
+    width: 17%;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 1.1rem;
+    text-align: center;
+    border: 0.1rem solid var(--bg-secondary);
+  }
+  #showButton:hover {
+    background-color: var(--bg-hover);
+    color: var(--text-hover);
+    opacity: 0.8;
+    transition-duration: 0.3s;
+  }
+  .Container-projekter .Projekt-Web-dev .button {
+    margin-top: 3.3rem;
   }
   footer {
     margin-top: 1rem;

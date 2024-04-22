@@ -99,10 +99,15 @@ p {
   bottom: 1rem;
   right: 1rem;
 }
-.logo {
-  width: 50%;
-  max-width: 100%;
-  height: auto;
+.skills ul li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0.5rem;
+  line-height: 1rem;
+  list-style-type: none;
 }
 footer {
   margin-top: auto;

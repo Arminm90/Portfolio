@@ -198,15 +198,14 @@ footer ul li a span {
   .Container-projekter .Projekt-Web-dev .button {
     margin-top: 3.5rem;
   }
+  footer a:hover {
+    color: var(--bg-hover);
+  }
+  /* .OmMig {
+    margin-top: 2rem;
+  } */
 }
 
-/* .OmMig {
-  margin-top: 2rem;
-} */
-
-footer a:hover {
-  color: var(--bg-hover);
-}
 @media only screen and (min-width: 1200px) {
   /* #navbar ul {
     justify-content: space-evenly;

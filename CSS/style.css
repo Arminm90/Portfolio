@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   font-family: var(--font-primary);
@@ -20,7 +21,9 @@ p {
 header {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+}
+header img {
+  max-width: 100%;
 }
 #navbar ul {
   display: flex;
@@ -78,6 +81,14 @@ p {
 .Projekt-Web-dev img {
   max-width: 100%;
 }
+.button {
+  width: 100%;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1.1rem;
+  text-align: center;
+  border: 0.1rem solid var(--bg-secondary);
+}
 
 /* .omMig {
 } */
@@ -114,6 +125,9 @@ footer ul li a span {
   }
 } */
 @media only screen and (min-width: 768px) {
+  header img {
+    width: 25%;
+  }
   #navbar ul {
     flex-direction: row;
     justify-content: space-evenly;
@@ -126,6 +140,8 @@ footer ul li a span {
     background-color: var(--bg-hover);
     width: 100%;
     color: var(--text-hover);
+    opacity: 0.8;
+    transition-duration: 0.3s;
   }
   .Intro {
     display: flex;
@@ -165,17 +181,25 @@ footer ul li a span {
   .Projekter img {
     max-width: 25%;
   }
-  /* .Projekt-UX {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 0;
-  } */
-  /* .Projekt-UX img {
-    max-width: 25%;
+  .Container-projekter > div > a.button {
+    width: 100%;
+    padding: 1rem;
+    display: inline-block;
+    font-size: 1.1rem;
+    text-align: center;
+    border: 0.1rem solid var(--bg-secondary);
   }
-  .Projekt-Web-dev img {
-    max-width: 25%; */
+  .Container-projekter > div > a.button:hover {
+    background-color: var(--bg-hover);
+    color: var(--text-hover);
+    opacity: 0.8;
+    transition-duration: 0.3s;
+  }
+  .Container-projekter .Projekt-Web-dev .button {
+    margin-top: 3.5rem;
+  }
 }
+
 /* .OmMig {
   margin-top: 2rem;
 } */

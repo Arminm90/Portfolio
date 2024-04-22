@@ -221,6 +221,13 @@ footer ul li a span {
   .Container-projekter .Projekt-Web-dev .button {
     margin-top: 3.3rem;
   }
+  table {
+    display: none;
+    border: none;
+  }
+  footer {
+    margin-top: 1rem;
+  }
   footer a:hover {
     color: var(--bg-hover);
   }

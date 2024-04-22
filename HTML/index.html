@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/function.js" defer></script>
     <title>Velkommen</title>
   </head>
   <body>
@@ -82,9 +83,11 @@
           <br />
 
           Jeg har arbejdet med flere forskellige programmeringssprog, og har
-          forskellige niveua af dem. Her er nogle af dem:
+          forskellige niveua af dem. <br /><br />Try her for at se dem jeg er
+          bekendt med:
+          <button onclick="showTable()">Vis Programmeringssprog</button>
         </p>
-        <table>
+        <table id="sprogTable">
           <tr>
             <th>Programmeringssprog</th>
             <th>Niveau</th>
@@ -118,13 +121,6 @@
             <td>Junior Developer</td>
           </tr>
         </table>
-
-        <!-- 
-              Put et billede af programmings sprog vi har arbejdet med
-              og skriv lidt om det.
-
-              Ikoner til sociale medier, mail
-             -->
       </article>
     </main>
     <a href="#hjem">

@@ -92,8 +92,17 @@ p {
   border: 0.1rem solid var(--bg-secondary);
 }
 
+.omMig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
 table {
   max-width: 100%;
+  display: block;
+  border: none;
 }
 table,
 th,
@@ -103,8 +112,9 @@ td {
   padding: 0.5rem;
   border-color: var(--bg-secondary);
 }
-/* .omMig {
-} */
+#showButton {
+  display: none;
+}
 #Arrow {
   position: fixed;
   width: 2rem;
@@ -224,6 +234,9 @@ footer ul li a span {
   table {
     display: none;
     border: none;
+  }
+  #showButton {
+    display: block;
   }
   footer {
     margin-top: 1rem;
